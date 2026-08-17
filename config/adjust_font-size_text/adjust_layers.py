@@ -95,7 +95,9 @@ class AdjustFontLayers(inkex.EffectExtension):
     RULES = {
         "panel": "12pt",
         "label": "8pt",
-        "scale": "7pt",
+        "ticks": "7pt",
+        "scale": "6pt",
+        "stats": "6pt"
     }
  
     # Divide the target by the composed transform scale, so the rendered size
