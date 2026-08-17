@@ -91,6 +91,7 @@ class AdjustFontLayers(inkex.EffectExtension):
     FONT_FAMILY = "Arial"
     FONT_SPEC = "Arial"
  
+ 
     # Layer keyword -> target size, as it should appear on the printed page.
     RULES = {
         "panel": "12pt",
